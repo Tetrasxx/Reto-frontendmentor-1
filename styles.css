@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+#contenedor1{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: white;
+}
+#contenedor2{
+    background-color:  rgb(55, 180, 180);
+    background-size: cover;
+}
+#contenedor3{
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color:  rgb(100, 200, 200);
+}
+@media screen and (min-width:760px){
+    #contenedor1{
+        grid-column:1/3;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        background-color: white;
+    }
+    #contenedor2{
+        border-bottom-left-radius: 10px;
+        background-color:  rgb(55, 180, 180);
+        background-size: cover;
+    }
+    #contenedor3{
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 0px;
+        background-color:  rgb(100, 200, 200);
+    }
+}
+*{
+    font-family: 'Karla', sans-serif;
+}
+
+#signup {
+    color: white;
+    background-color: rgb(180, 220, 35);
+    height: 45px;
+    border-radius: 5px;
+    border: 0px;
+    display: inline;
+    width: 100%;
+}
+#signup:hover{
+    background-color: rgb(180, 200, 45);
+}
+#days {
+    color: rgb(180, 220, 35);
+}
+strong{
+    font-size: 30px;
+}
+h1{
+    color: rgb(30, 165, 165);
+    font-weight: 600;
+}
+h2.subtitulo {
+    color: white;
+    margin: 0px;
+ 
+}
+body {
+    height: 100vh;
+    display: flex;
+    place-items: center;
+    margin: auto;
+    background-color: lightblue;
+}
+main{
+    margin: auto;
+    width: 70vw;
+    background-color: white;
+    shape-outside: linear-gradient(10px);
+    border-radius: 15px;
+    display: grid;
+    grid-column: 1fr 1fr;
+    grid-row: 1fr 1fr;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+p {
+    color: white;
+}
+p.header{
+    color:grey;
+}
+ul{
+    color: white;
+    list-style-type: none;
+    padding: 0px;
+}
+div{
+    padding: 40px;
+}
+
+
