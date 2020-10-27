@@ -71,7 +71,7 @@ body {
 }
 main{
     margin: auto;
-    width: 70vw;
+    width: 50vw;
     background-color: white;
     shape-outside: linear-gradient(10px);
     border-radius: 15px;
